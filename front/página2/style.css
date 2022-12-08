@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+header,
+main {
+  background-color: #2e2e2e;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  justify-content: space-around;
+  display: grid;
+  justify-content: center;
+}
+
+dialog {
+  padding: 20px;
+  display: grid;
+  border-radius: 10px;
+  visibility: hidden;
+  border: none;
+  background-color: #2e2e2e;
+  justify-content: center;
+  align-content: space-between;
+  box-shadow: 0 0 1em rgb(0 0 0 /.3);
+  height: 315px;
+  width: 210px;
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+dialog::backdrop {
+  background-color: rgb(0 0 0 / .5);
+  position: relative;
+}
+
+#itens {
+  display: grid;
+  margin-bottom: 30px;
+}
+
+#coisa {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.coisa {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
+}
+
+#cancelar {
+  color: red;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #2e2e2e;
+  border: 2px solid red;
+  height: fit-content;
+}
+
+#cadastrar {
+  color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #2e2e2e;
+  height: fit-content;
+}
+
+input {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+#some {
+  height: 15px;
+}
+
+#coisinhas {
+  display: grid;
+  padding: 10px;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+#nome {
+  color: white;
+  padding: 10px;
+}
+
+#excluir {
+  color: red;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#coisa {
+  display: flex;
+  justify-content: space-around;
+}
+
+#add {
+  border: 1px solid yellow;
+  color: yellow;
+  font-weight: bold;
+  background-color: #2e2e2e;
+  cursor: pointer;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 10px;
+}
+
+#add:hover {
+  border: 1px solid yellow;
+  border-radius: 10px;
+  background-color: yellow;
+  color: black;
+  height: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#img {
+  height: 50px;
+}
+
+.corpo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagem {
+  height: 125px;
+  width: 90px;
+  margin: 10px;
+  background-size: 100% auto;
+  border-radius: 20px;
+}
+
+.modelo {
+  visibility: hidden;
+  display: none;
+}
